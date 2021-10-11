@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    background : url(../img/background.png);
+    background-size: cover;
+
+}
+
+/* Start with Page Login index html */
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0, 0, 0, .8);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+.container h2 {
+    color: white;
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.container .form_input{
+    position: relative;
+}
+
+.container .form_input input {
+    width: 100%;
+    padding: 10% 0;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.container .form_input label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0 ;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.container .form_input input:focus ~ label,
+.container .form_input input:valid ~ label
+{
+    top: -18;
+    left: 0;
+    color: teal;
+    font-size: 12px;
+}
+
+.container input[ type="submit"] {
+    background: transparent;
+    border: none;
+    outline: #fff;
+    background: teal;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container a {
+    text-decoration: none;
+    margin-right: 0px;
+    color: blue;
+}
+
+/* End Page Login index html */
+
+/* Start create php */
+
+.container-fluid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+/* end of Create php */
+
+/* service html */
+.back{
+    background: black;
+    color: blanchedalmond;
+}
+
